@@ -1,0 +1,48 @@
+#top {
+    h1 {
+        font-size: 70px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+#buttonAll {
+    .btn {
+        border-radius: none;
+    }
+}
+#textArea {
+    label {
+        font-size: 30px;
+    }
+}
+#format_text {
+    min-height: 16em;
+    line-break: anywhere;
+    border: 1px solid rgb(165, 162, 162, .5);
+    background-color: rgb(189, 186, 186, .1);
+    padding: 10px;
+}
+.active {
+    background-color: rgb(78, 126, 216);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width:768px) {
+    #textArea {
+        label {
+            font-size: 20px;
+        }
+    }
+    
+}
